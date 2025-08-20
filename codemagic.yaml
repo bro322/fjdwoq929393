@@ -5,9 +5,6 @@ workflows:
     environment:
       flutter: stable
       xcode: latest
-      cocoapods: default
-      vars:
-        PROJECT_NAME: my_new_app
     scripts:
       - name: Install dependencies
         script: |
@@ -27,8 +24,3 @@ workflows:
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
       - build/app/outputs/bundle/release/*.aab
-    publishing:
-      google_play:
-        service_account: $GOOGLE_PLAY_SERVICE_ACCOUNT
-        track: internal
-        artifact_path: build/app/outputs/bundle/release/app-release.aab
