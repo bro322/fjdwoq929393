@@ -1,0 +1,30 @@
+
+name: fatina_institute
+description: "معهد فاتنة للدورات التعليمية - تطبيق إدارة علامات الطلاب وجداول المعلمين"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.2.1
+  flutter_local_notifications: ^17.2.1
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
