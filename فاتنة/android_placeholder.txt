@@ -1,0 +1,1 @@
+أنشئ مجلد android عبر الأمر: flutter create .  ثم انسخ google-services.json إلى android/app/ وأضف plugin google-services في Gradle.

@@ -1,0 +1,1 @@
+أنشئ مجلد ios عبر الأمر: flutter create .  ثم أضف GoogleService-Info.plist إلى Runner وفعّل Firebase.
